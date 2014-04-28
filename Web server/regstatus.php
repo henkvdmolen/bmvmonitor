@@ -59,12 +59,12 @@ if(isset($_POST)){
 					$hsqlkeystring = $hsqlkeystring.','.$key;
 					$hsqlvalstring = $hsqlvalstring.','."'".$value."'";
 
-				}else{
+				} else{
 					 $sqlkeystring = $sqlkeystring.','.$key;
 					 $sqlvalstring = $sqlvalstring.','."'".$value."'";
 					 	
+				}
 			}
-		}
 		
 
 
